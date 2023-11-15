@@ -1,0 +1,139 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    /* Fuentes */
+    --fuente: "Roboto Mono";
+    --fuente2: "Roboto Condensed"
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #152816;
+}
+
+
+/* HEADER */
+
+header {
+    margin-top: 6vh;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+}
+
+header h1 {
+    width: 300px;
+    color: white;
+    font-size: 25px;
+    font-family: var(--fuente);
+    font-weight: 200;
+
+}
+
+/* MAIN */
+
+.products {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
+}
+
+.cards {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 300px;
+    height: auto;
+
+    border-radius: 16px;
+    box-shadow: black 0 2 4;
+    font-family: var(--fuente);
+
+}
+
+.cards h2 {
+    color: aliceblue;
+
+}
+
+.cards img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.cards p {
+
+    font-weight: 200;
+    font-size: 13px;
+    color: aliceblue;
+}
+.cards .price{
+    font-size: 15px;
+}
+.description {
+
+    font-weight: 200;
+    font-size: 13px;
+    color: aliceblue;
+    margin-top: 4px;
+}
+
+.boton {
+    align-items: end;
+    width: 60%;
+    height: 45px;
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6px;
+    border: none;
+    font-family: var(--fuente);
+    
+}
+
+.flexcarrito {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+.flexcarrito div {
+    width: 30%;
+    height: 45px;
+    border: solid thin rgba(255, 255, 255, 0.678);
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/*FOOTER*/
+
+footer{
+    height: 15vh;
+}
